@@ -24,7 +24,7 @@ namespace SeleniumUiTests
         [TestInitialize()]
         public void PU_SearchTests_Initialize()
         {
-           _websiteURL = (string) TestContext.Properties["webAppUrl"];
+           //_websiteURL = (string) TestContext.Properties["webAppUrl"];
         }
 
         [TestMethod]
